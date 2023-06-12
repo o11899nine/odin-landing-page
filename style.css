@@ -1,10 +1,7 @@
-html {
-    box-sizing: border-box;
-}
+/* RESET */
 
-body {
-    background-color: #1F2937;
-    font-family: 'Roboto', sans-serif;
+* {
+    box-sizing: border-box;
 }
 
 a {
@@ -18,10 +15,23 @@ ul {
     padding: 0;
 }
 
+
+
+body {
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* HEADER */
+
 .header {
     height: 70px;
     width: 100%;
-    border: 2px solid yellow;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +45,6 @@ ul {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
-    border: 2px solid lightgreen;
     margin-left: 20px;
 }
 
@@ -45,7 +54,6 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     gap: 30px;
-    border: 2px solid orange;
     align-items: center;
     margin-right: 20px;
 }
@@ -53,5 +61,65 @@ ul {
 .header-links a {
     display: block;
     padding: 20px 10px;
-    border: 2px solid lightblue;
 }
+
+/* HERO SECTION */
+.hero-section {
+    background-color: #1F2937;
+    border: 2px solid pink;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero-container {
+    display: flex;
+    border: 2px solid yellow;
+    width: 1200px;
+    height: 500px;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.hero-content {
+    border: 2px solid green;
+    width: 475px;
+    align-items: center;
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 20px 0px;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+.hero-image {
+    background-color: rgb(173, 173, 173);
+    display: flex;
+    color: #ffffff;
+    width: 600px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
