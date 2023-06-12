@@ -30,7 +30,6 @@ a {
     height: 70px;
     width: 100%;
     background-color: #1F2937;
-    position: fixed;
 }
 
 .header-container {
@@ -158,15 +157,7 @@ a {
     color: #1F2937;
 }
 
-
-
-
-
-
-
-
-
-
+/* QUOTE SECTION */
 
 
 .quote-section {
@@ -175,10 +166,37 @@ a {
     background-color: #E5E7EB;
 }
 
+.quote-container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0px 150px;
+}
+
+.author {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+    padding: 0px 200px;
+}
+
+
+/* ACTION SECTION */
+
 .action-section {
     height: 465px;
     border: 2px solid orange;
 }
+
+
+
 
 .footer {
     height: 135px;
