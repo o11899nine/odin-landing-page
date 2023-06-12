@@ -19,7 +19,6 @@ a {
     width: 1365px;
     max-width: 1365px;
     margin: 0 auto;
-    border: 2px solid rgb(121, 121, 0);
     display: flex;
     align-items: center;
 }
@@ -229,9 +228,15 @@ a {
     border-radius: 8px;
 }
 
+/* FOOTER */
 
 .footer {
     height: 135px;
-    border: 2px solid turquoise;
     background-color: #1F2937;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
 }
