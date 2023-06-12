@@ -1,7 +1,7 @@
-a {
-    text-decoration: none;
-    color: inherit;
+html {
+    box-sizing: border-box;
 }
+
 
 body {
     padding: 0;
@@ -9,53 +9,105 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .section-container {
     height: 100%;
     width: 1365px;
+    max-width: 1365px;
     margin: 0 auto;
     border: 2px solid rgb(121, 121, 0);
     display: flex;
+    align-items: center;
+}
+
+/* HEADER */
+
+.header {
+    height: 70px;
+    background-color: #1F2937;
+    padding: 0px 20px;
 }
 
 .section-container.header-container {
     justify-content: space-between;
 }
 
-
-.header {
-    border: 2px solid red;
-    height: 70px;
-    background-color: #1F2937;
-}
-
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 600;
-    border: 2px solid green;
     display: flex;
     align-items: center;
+    flex: 1;
 }
 
 .header-nav {
     font-size: 18px;
     color: #E5E7EB;
-    border: 2px solid pink;
     display: flex;
     gap: 30px;
 }
 
 .header-nav a {
-    border: 2px solid lightgreen;
     display: flex;
     align-items: center;
 }
+
+.header-nav a:hover {
+    opacity: 0.85;
+}
+
+/* HERO SECTION */
 
 .hero-section {
     height: 700px;
     border: 2px solid blue;
     background-color: #1F2937;
 }
+
+.hero-section .section-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-content {
+    border: 2px solid red;
+    width: 200px;
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;;
+}
+
+.hero-secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.signup-button {
+    background-color: #3882F6;
+}
+
+.hero-image {
+    width: 698px;
+    height: 318px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid lightgreen;
+}
+
+
+
+
+
 
 .category-section {
     height: 665px;
