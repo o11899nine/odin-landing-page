@@ -117,7 +117,6 @@ a {
 /* CATEGORY SECTION */
 .category-section {
     height: 665px;
-    border: 2px solid green;
 }
 
 .category-container {
@@ -162,7 +161,6 @@ a {
 
 .quote-section {
     height: 570px;
-    border: 2px solid purple;
     background-color: #E5E7EB;
 }
 
@@ -192,10 +190,44 @@ a {
 
 .action-section {
     height: 465px;
-    border: 2px solid orange;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+}
+
+.action-banner {
+    background-color: #3882F6;
+    display: flex;
+    padding: 50px 150px;
+    border-radius: 10px;
+    gap: 100px;
+}
+
+.action-banner-text {
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action-banner-text h4 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.action-banner-text p {
+    margin: 0;
+    color: #E5E7EB;
 }
 
 
+.action-banner-button {
+    border: 2px solid white;
+    font-size: 16px;
+    border-radius: 8px;
+}
 
 
 .footer {
